@@ -7,7 +7,7 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-150"		[$WIN32]
 		"xpos_minmode"	"100"	[$WIN32]
-		"ypos"			"c50"	[$WIN32]
+		"ypos"			"c42"	[$WIN32]
 		"ypos_minmode"	"r144"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"250"
@@ -51,19 +51,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
+		"xpos"			"22"	[$WIN32]
+		"ypos"			"16"		[$WIN32]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"22"	[$WIN32]
+		"tall"			"22"	[$WIN32]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -73,24 +65,24 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
+		"xpos"			"3"
 		"xpos_minmode"	"61"
-		"ypos"			"0"	[$WIN32]
+		"ypos"			"9"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"60"
-		"tall"			"25"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"ComfortaaRegular36"
+		"font"			"ComfortaaRegular52"
 		"fgcolor"		"White"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
+		"xpos"			"99999"
 		"xpos_minmode"	"61"
 		"ypos"			"20"	[$WIN32]
 		"ypos"			"55"	[$X360]
@@ -172,7 +164,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"85"
+		"xpos"			"0"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -188,7 +180,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"85"
+		"xpos"			"0"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"

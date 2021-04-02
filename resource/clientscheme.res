@@ -3083,6 +3083,36 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"DunkinSans42"
+		{
+			"1"
+			{
+				"name"		"Dunkin Sans"
+				"tall"		"42"
+				"weight"	"100"
+				"antialias" "1"
+			}
+		}
+		"DunkinSans48"
+		{
+			"1"
+			{
+				"name"		"Dunkin Sans"
+				"tall"		"48"
+				"weight"	"100"
+				"antialias" "1"
+			}
+		}
+		"DunkinSans52"
+		{
+			"1"
+			{
+				"name"		"Dunkin Sans"
+				"tall"		"52"
+				"weight"	"100"
+				"antialias" "1"
+			}
+		}
 		"ComfortaaLight12"
 		{
 			"1"
@@ -3125,6 +3155,33 @@ Scheme
 			{
 				"name"		"Comfortaa Light"
 				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
+		"ComfortaaLight42"
+		{
+			"1"
+			{
+				"name"		"Comfortaa Light"
+				"tall"		"42"
+				"antialias"	"1"
+			}
+		}
+		"ComfortaaLight48"
+		{
+			"1"
+			{
+				"name"		"Comfortaa Light"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+		"ComfortaaLight52"
+		{
+			"1"
+			{
+				"name"		"Comfortaa Light"
+				"tall"		"52"
 				"antialias"	"1"
 			}
 		}
@@ -3173,6 +3230,33 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"ComfortaaRegular42"
+		{
+			"1"
+			{
+				"name"		"Comfortaa Regular"
+				"tall"		"42"
+				"antialias"	"1"
+			}
+		}
+		"ComfortaaRegular48"
+		{
+			"1"
+			{
+				"name"		"Comfortaa Regular"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+		"ComfortaaRegular52"
+		{
+			"1"
+			{
+				"name"		"Comfortaa Regular"
+				"tall"		"52"
+				"antialias"	"1"
+			}
+		}
 		"ComfortaaBold12"
 		{
 			"1"
@@ -3215,6 +3299,33 @@ Scheme
 			{
 				"name"		"Comfortaa Bold"
 				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
+		"ComfortaaBold42"
+		{
+			"1"
+			{
+				"name"		"Comfortaa Bold"
+				"tall"		"42"
+				"antialias"	"1"
+			}
+		}
+		"ComfortaaBold48"
+		{
+			"1"
+			{
+				"name"		"Comfortaa Bold"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+		"ComfortaaBold52"
+		{
+			"1"
+			{
+				"name"		"Comfortaa Bold"
+				"tall"		"52"
 				"antialias"	"1"
 			}
 		}
