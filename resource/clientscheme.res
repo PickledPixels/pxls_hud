@@ -208,6 +208,10 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		"PXLS_lightPink"		"255 205 215 255"
+		"PXLS_mediumPink"		"220 155 250 255"
+		"PXLS_lavender"			"170 135 255 255"
+		"PXLS_lightBlue"		"200 255 255 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
