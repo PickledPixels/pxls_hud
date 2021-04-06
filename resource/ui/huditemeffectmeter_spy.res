@@ -1,32 +1,34 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Spy.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r75"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos"			"c150"	[$WIN32]
+		"ypos"			"c49"	[$WIN32]
+		"xpos_minmode"	"r70"	[$WIN32]
+		"ypos_minmode"	"r74"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
-		"MeterBG"		"White"
+		"MeterBG"		"Gray"
 	}
 	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
+		"xpos"			"99999"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"0"
+		"visible"		"1"
 		"visible_minmode"	"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -39,7 +41,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"0"
 		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
@@ -49,17 +51,17 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_KillStreak"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"ComfortaaRegular12"
 	}
-		"ItemEffectMeterLabelBG"
+	"ItemEffectMeterLabelBG"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabelBG"
-		"xpos"					"27"
+		"xpos"					"2"
 		"ypos"					"29"
 		"zpos"					"2"
 		"wide"					"41"
@@ -69,9 +71,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"center"
 		"dulltext"				"0"
+		"labelText"				"CRITS"
 		"brighttext"			"0"
 		"font"					"ComfortaaRegular12"
 		"fgcolor"				"Black"
@@ -94,7 +96,7 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"Left"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					
@@ -103,44 +105,40 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos_minmode"			"18"
-		"ypos"					"2"
+		"xpos"					"-2"
+		"ypos"					"11"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"30"	
+		"wide"					"44"
+		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"ComfortaaBold32"
+		"font"					"ComfortaaBold24"
 		"fgcolor"				"White"
-		"font_minmode"			"HudFontSmall"
 	}
 	"ItemEffectMeterCountBG"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBG"
-		"xpos"					"27"
-		"ypos_minmode"			"18"
-		"ypos"					"4"
+		"xpos"					"0"
+		"ypos"					"13"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"30"	
+		"wide"					"44"
+		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"ComfortaaBold32"
+		"font"					"ComfortaaBold24"
 		"fgcolor"				"Black"
-		"font_minmode"			"HudFontSmall"
 	}
 }
